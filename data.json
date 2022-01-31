@@ -1,0 +1,50 @@
+
+{
+    "projects" : [
+        {
+            "id" : 0,
+            "project_name" : "",
+            "description" : "",
+            "technologies" : [],
+            "live_link" : "",
+            "github_links" : "",
+            "image_urls" : []
+         },
+         {
+            "id" : 0,
+            "project_name" : "",
+            "description" : "",
+            "technologies" : [],
+            "live_link" : "",
+            "github_links" : "",
+            "image_urls" : []
+         },
+         {
+            "id" : 0,
+            "project_name" : "",
+            "description" : "",
+            "technologies" : [],
+            "live_link" : "",
+            "github_links" : "",
+            "image_urls" : []
+         },
+         {
+            "id" : 0,
+            "project_name" : "",
+            "description" : "",
+            "technologies" : [],
+            "live_link" : "",
+            "github_links" : "",
+            "image_urls" : []
+         },
+         {
+            "id" : 0,
+            "project_name" : "",
+            "description" : "",
+            "technologies" : [],
+            "live_link" : "",
+            "github_links" : "",
+            "image_urls" : []
+         }
+    ]
+}
