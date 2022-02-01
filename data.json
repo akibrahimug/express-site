@@ -3,48 +3,100 @@
     "projects" : [
         {
             "id" : 0,
-            "project_name" : "",
-            "description" : "",
-            "technologies" : [],
-            "live_link" : "",
-            "github_links" : "",
-            "image_urls" : []
+            "project_name" : "Employee Directory",
+            "description" : "This project uses the Async and Await method together with Fetch to get Random User data from an API. The API call returns images, emails, dates of birth, and locations of 96users. When a user card is clicked an Overlay is triggered by Javascript to display more information about the user",
+            "technologies" : [
+                "Ajax",
+                "Javascript",
+                "Html",
+                "CSS",
+                "Fetch API"
+            ],
+            "live_link" : "https://akibrahimug.github.io/Employee-Directory/",
+            "github_links" : "https://github.com/akibrahimug/Employee-Directory",
+            "image_urls" : [
+                "/static/images/project1.jpg",
+                "/static/images/project1-large.jpg",
+                "/static/images/project1-small.jpg",
+                "/static/images/project1-smaller.jpg"
+            ]
          },
          {
             "id" : 1,
-            "project_name" : "",
-            "description" : "",
-            "technologies" : [],
-            "live_link" : "",
-            "github_links" : "",
-            "image_urls" : []
+            "project_name" : "Data Pagination",
+            "description" : "This application delivers student information in a pagination display format where only nine cards are displayed per page inorder not to overwhelm the user.",
+            "technologies" : [
+                "Javascript",
+                "CSS",
+                "Html"
+            ],
+            "live_link" : "https://akibrahimug.github.io/data-pagination/",
+            "github_links" : "https://github.com/akibrahimug/data-pagination",
+            "image_urls" : [
+                "/static/images/project2.jpg",
+                "/static/images/project2-large.jpg",
+                "/static/images/project2-small.jpg",
+                "/static/images/project2-smaller.jpg"
+            ]
          },
          {
             "id" : 2,
-            "project_name" : "",
-            "description" : "",
-            "technologies" : [],
-            "live_link" : "",
-            "github_links" : "",
-            "image_urls" : []
+            "project_name" : "Registration Form",
+            "description" : "This is an interactive registration form for a fictional Full Stack conference. The form is fully customized with conditional behavior and interactivity Validating user with Regular Expressions input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies" : [
+                "CSS",
+                "Html",
+                "Regular Expressions",
+                "Javascript"
+            ],
+            "live_link" : "https://akibrahimug.github.io/form-validation/",
+            "github_links" : "https://github.com/akibrahimug/form-validation/",
+            "image_urls" : [
+                "/static/images/project3.jpg",
+                "/static/images/project3-large.jpg",
+                "/static/images/project3-small.jpg",
+                "/static/images/project3-smaller.jpg"
+            ]
          },
          {
             "id" : 3,
-            "project_name" : "",
-            "description" : "",
-            "technologies" : [],
-            "live_link" : "",
-            "github_links" : "",
-            "image_urls" : []
+            "project_name" : "Phrase Hunter",
+            "description" : "In this project, I created a browser version of “Wheel of Success”, a word guessing game.",
+            "technologies" : [
+                "OOP",
+                "CSS",
+                "Html",
+                "Javascript"
+            ],
+            "live_link" : "https://akibrahimug.github.io/OOP-game/",
+            "github_links" : "https://github.com/akibrahimug/OOP-game",
+            "image_urls" : [
+                "/static/images/project4.jpg",
+                "/static/images/project4-large.jpg",
+                "/static/images/project4-small.jpg",
+                "/static/images/project4-smaller.jpg"
+            ]
          },
          {
             "id" : 4,
-            "project_name" : "",
-            "description" : "",
-            "technologies" : [],
-            "live_link" : "",
-            "github_links" : "",
-            "image_urls" : []
+            "project_name" : "Web Dashboard",
+            "description" : "This is a fully responsive Data Visualisation Dashboard using Chart.js that takes an idea from a social media dashboard, displaying Traffic to your page on an hourly daily weekly and monthly basis.",
+            "technologies" : [
+                "Chart.js",
+                "SASS",
+                "Html",
+                "Javascript",
+                "SVG",
+                "Local Storage"
+            ],
+            "live_link" : "https://akibrahimug.github.io/WebDashboard/",
+            "github_links" : "https://github.com/akibrahimug/WebDashboard",
+            "image_urls" : [
+                "/static/images/project5.jpg",
+                "/static/images/project5-large.jpg",
+                "/static/images/project5-small.jpg",
+                "/static/images/project5-smaller.jpg"
+            ]
          }
     ]
 }
