@@ -21,11 +21,16 @@ app.get('/project/:id', (req, res) => {
 
 // Error Handling for 404 status errors
 app.use((req,res,next) => {
-    res.status(404).send('Sorry cant find that!')
+    const err = new Error();
+    err.status = 404;
+    res.status(404).render('not-found', {err: err.status})
+    console.log(err)
 })
 //Error Handling for Global status errors
 app.use((err,req,res,next) => {
-    res.status(500).send('Something is brocken please try again')
+    err.status = 500
+    res.status(500).render('error', {err: err.status})
+    console.log(err)
 })
 
 app.listen(3000, () => {

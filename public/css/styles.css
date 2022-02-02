@@ -300,7 +300,10 @@ nav a span {
   border: 1px solid transparent;
 }
 
-
+.error-h1{
+  font-size: 200px !important;
+  text-align: center;
+}
 /* 
   Tablet layout styles 
 */
