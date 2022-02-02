@@ -23,13 +23,13 @@ app.get('/project/:id', (req, res) => {
 app.use((req,res,next) => {
     const err = new Error();
     err.status = 404;
-    res.status(404).render('not-found', {err: err.status})
+    res.status(404).render('page-not-found', {err: err.status})
     console.log(err)
 })
 //Error Handling for Global status errors
 app.use((err,req,res,next) => {
     err.status = 500
-    res.status(500).render('error', {err: err.status})
+    res.status(500).render('error', {err})
     console.log(err)
 })
 
